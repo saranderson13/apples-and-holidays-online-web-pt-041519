@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
     end
   end
   binding.pry
-  includes_bbq.flatten.compact
+  includes_bbq.compact.flatten
 end
 
 
