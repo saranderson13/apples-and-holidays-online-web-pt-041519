@@ -79,7 +79,7 @@ def all_holidays_with_bbq(holiday_hash)
       holiday if supplies.include?("BBQ")
     end
   end
-  binding.pry
+  # binding.pry
   includes_bbq.compact.flatten
 end
 
