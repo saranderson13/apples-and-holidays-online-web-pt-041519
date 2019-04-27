@@ -35,7 +35,6 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
   
-  binding.pry
   holiday_hash[:spring][:memorial_day] << supply
 end
 
@@ -48,7 +47,8 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
-
+  
+  holiday_hash[:winter]
 end
 
 def all_supplies_in_holidays(holiday_hash)
